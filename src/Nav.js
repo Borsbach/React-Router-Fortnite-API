@@ -10,10 +10,10 @@ function Nav() {
     <nav>
       <h2>Fortnite</h2>
       <ul className='nav-links'>
-        <Link style={navStyle} to='./about'>
+        <Link style={navStyle} to='/about'>
         <li>About</li>
         </Link>
-        <Link style={navStyle} to="./shop">
+        <Link style={navStyle} to="/shop">
         <li>Shop</li>
         </Link>
       </ul>
